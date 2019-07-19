@@ -1,0 +1,13 @@
+A - Uma instrução é uma linha de código a ser executada. Exemplo: 'A = 20' é uma instrução para criar uma variável A e atribuí-la o valor 20.
+
+B - Uma expressão é uma linha de código que realiza alguma operação. Exemplo 'A = 10 + 20' é uma expressão.
+
+C - Funções são um conjunto de instruções que realizam determinada atividade, ao receber um dado, podendo ou não retornar um valor. Exemplo: a função 'sqrt' da biblioteca 'Math' recebe um valor e retorna sua raiz quadrada.
+
+D - Uma expressão booleana é um operador aritmético que só possui dois valores: 'True', caso ela seja satisfeita; e 'False', caso ela não seja satisfeita. Exemplo: " 'A'.isupper() " no Python, é uma expressão booleana que retornará o valor 'True', pois 'A' é uma letra maiúscula.
+
+E - Operadores são instruções que iteram valores. Existem tipos diversos, como os aritméticos - realizam operações aritméticas como soma, subtração, multiplicação, divisão, potenciação, divisão inteira, resto, etc; condicionais - realizam um conjunto de instruções caso satisfaçam uma condição, como o se, senão, enquanto, para, etc; booleanos - só podem ser "Verdadeiro" ou "Falso", como o maior que, menor que, maior ou igual que, menor ou igual que, igual a, diferente de etc; dentre outros.
+
+F - Recursividade é uma forma de laço de repetição, onde a função, ao seu final, chama a si mesma. Deve ter um caso básico; deve chamar a si mesmo, recursivamente e, a cada execução, o algoritmo muda seu estado e se aproxima do caso básico. Um exemplo seria um algoritmo para calcular o fatorial de um número, onde bastaria multiplicar este número pelo fatorial do número imediatamente inferior a este. Em termos práticos, a recursividade ficaria da seguinte maneira:
+
+                                    fatorial(numero) = numero * fatorial(numero - 1)
